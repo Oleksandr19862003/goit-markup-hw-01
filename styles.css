@@ -1,0 +1,98 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+ }
+ .navigation {
+     display: flex;
+ }
+.nav-stud {
+margin-right: 50px;
+margin-left: 50px;
+}
+.nav-portfolio {
+margin-right: 50px;
+}
+.nav-contacts {
+}
+.mail {
+margin-left: 331px;
+}
+.phone {
+margin-left: 50px;
+}
+.section-first {
+
+}
+.cap {
+height: 600px;
+width: 1600px;
+left: 0px;
+top: 80px;
+border-radius: 0px;
+background: #2F303A;
+}
+.main-discription {
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.order-service {
+position: absolute;
+width: 200px;
+height: 50px;
+left: 732px;
+top: 440px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+
+
+
+
+.city {
+  color: #ffffff;
+}
+.footer {
+    background: #2F303A;
+    width: 1600px; 
+    height: 252px;"
+}
+.webstudio {
+    color: white;
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 26px;
+    line-height: 31px;
+    margin-left: 215px;
+}
+.web {
+    
+    margin-top: 60px;
+}
+.studio {
+color: black;
+}
+.address {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 20px;
+  margin-left: 215px;
+}
