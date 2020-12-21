@@ -2,104 +2,120 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
 <h1>Главная</h1>
-    
-        <!--Панель навигации -->
-        <nav class="navigation">
-            <p class="webstudio"><span class="web" style="color: #2196F3;;">Web
-            </span><span class="studio">Studio</span></p>
-            <p class="nav-stud">Студия</p>
-            <p class="nav-portfolio">Портфолио</p>
-            <p class="nav-contacts">Контакты</p>
-            <p class="mail">@devstudio.com</p>
-            <p class="phone"> +380961111111</p>
-        </nav>
-        <main>
-        <!-- Шапка -->
-        <header class="cap">
-            <h1 class="main-discription"> Эффективные решения для вашего бизнеса </h1>
-            <p class="order-service">Заказать услугу</p>
+<body>  
+            <!--Menu Nav -->
+        <header>
+            <div  class="navigation">
+                <nav class="navigation">
+                    <a href="WebStudio" class="webstudio"><span class="web"> Web</span>
+                    <span class="studio">Studio</span>
+                    </a>
+                <ul class="navigation">
+                    <li class="nav-stud">Студия</li>
+                    <li class="nav-portfolio">Портфолио</li>
+                    <li class="nav-contacts">Контакты</li>
+                </ul>
+                </nav>
+                <address class="mail">
+                    <p>info@devstudio.com</p>
+                    <p class="phone"> +380961111111</p>
+                </address>
+            </div>
         </header>
-        <!-- Секция 2 -->
+
+        <main>
+        <!--Hero -->
+        <Section class="section-hero">
+            <h2 class="main-discription"> Эффективные решения для вашего бизнеса </h2>
+            <p class="order-service">Заказать услугу</p>
+        </Section>
+        
+        <!--Features-->
         <section>
-            <h1>Oсобенности</h1>
-            <ul>
-                <li> Внимание к деталям
-                    <br />Идейные соображения, а также
-                    <br /> начало повседневной работы по
-                    <br /> формированию позиции.
+            <ul class="features">
+                <li class="details"> 
+                    <p class="details-head">Внимание к деталям</p>
+                    <p>Идейные соображения, а также 
+                     начало повседневной работы по
+                     формированию позиции.
+                    </p>
                 </li>
-                <li style="margin-right: 30px;"> Пунктуальность
-                    <br />Задача организации, в особенности
-                    <br /> же рамки и место обучения кадров
-                    <br />влечет за собой.
+                <li class="details" > 
+                    <p class="details-head">Пунктуальность</p>
+                    <p>Задача организации, в особенности
+                     же рамки и место обучения кадров
+                     влечет за собой.
+                    </p>
                 </li>
-                <li style="margin-right: 30px;"> Планирование
-                    <br />Равным образом консультация с
-                    <br />широким активом в значительной
-                    <br />степени обуславливает.
+                <li class="details"> 
+                    <p class="details-head">Планирование</p>
+                    <p>Равным образом консультация с
+                     широким активом в значительной
+                     степени обуславливает.
+                    </p>
                 </li>
-                <li> Современные технологии
-                    <br />Значимость этих проблем настолько
-                    <br />очевидна, что реализация плановых
-                    <br />заданий.
+                <li class="details"> 
+                    <p class="details-head">Современные технологии</p>
+                    <p>Значимость этих проблем настолько
+                     очевидна, что реализация плановых
+                     заданий.
+                    </p>
                 </li>
             </ul>
         </section>
-        <!-- Секция 3 -->
+        <!--What we do-->
         <section>
             <h2>Чем мы занимаемся</h2>
-            <ul style="display:flex; color: white; margin-right: 215px;">
-                <li style="margin-right: 30px; margin-left: 215px; top: 1061px ;">
-                    <img src="images/section3/img11.jpg" alt="Составление кода" height="294" width="370" />
-                </li>
-                <li style="margin-right: 30px;"> <img src="images/section3/img2.jpg" alt="Мобильные приложения"
+            <ul class="display">
+                <li class="items">
+                    <img src="images/whatwedo/img11.jpg" alt="Составление кода" height="294" width="370" />
+                </li class="items">
+                <li class="items"> <img src="images/whatwedo/img2.jpg" alt="Мобильные приложения"
                         height="294" width="370" />
                 </li>
-                <li> <img src="images/section3/img3.jpg" alt="Java" height="294" width="370" />
+                <li class="items"> <img src="images/whatwedo/img3.jpg" alt="Java" height="294" width="370"/>
                 </li>
             </ul>
 
         </section>
-        <!--Секция 4-->
+        <!--Team-->
         <section>
-            <h3 style="text-align: center;">Наша команда</h3>
-            <ul style="display:flex; width: 1600px; margin-right: 215px; margin-left: 215px;">
-                <li style="left: 215px;"><img src="images/section4/img1.jpg" alt="Игорь Демьяненко" width="270" />
-                    <br />Игорь Демьяненко
-                    <br />Product Designer
+            <h3>Наша команда</h3>
+            <ul class="team">
+                <li class="team-members"><img src="images/team/img1.jpg" alt="Игорь Демьяненко" width="270"/>
+                    <p>Игорь Демьяненко</p>
+                    <p>Product Designer</p>
                 </li>
-                <li style="margin-right: 30px;"><img src="images/section4/img2.jpg" alt="Ольга Репина" width="270" />
-                    <br />Ольга Репина
-                    <br />Frontend Developer
+                <li class="team-members"><img src="images/team/img2.jpg" alt="Ольга Репина" width="270"/>
+                    <p>Ольга Репина</p>
+                    <p>Frontend Developer</p>
                 </li>
-                <li style="margin-right: 30px;"><img src="images/section4/img3.jpg" alt="Николай Тарасов" width="270" />
-                    <br />Николай Тарасов
-                    <br /> Marketing
+                <li class="team-members"><img src="images/team/img3.jpg" alt="Николай Тарасов" width="270"/>
+                    <p>Николай Тарасов</p>
+                    <p>Marketing</p>
                 </li>
-                <li><img src="images/section4/img4.jpg" alt="Михаил Ермаков" width="270" />
-                    <br />Михаил Ермаков
-                    <br />UI Designer
+                <li class="team-members"><img src="images/team/img4.jpg" alt="Михаил Ермаков" width="270"/>
+                    <p>Михаил Ермаков</p>
+                    <p>UI Designer</p>
                 </li>
             </ul>
 
         </section>
     </main>
-    <footer class="footer">
+    <footer>
         <p class="webstudio"><span class="web" style="color: #2196F3;;">Web</span>Studio
-        </p>     
-            <address class="address">             
-            <span class="city">г. Киев, пр-т Леси Украинки, 26</span>
-            <p>@example.com</p>
+        </p>
+        <address class="address">
+            <p class="city">г. Киев, пр-т Леси Украинки, 26</p>
+            <p>info@devstudio.com</p>
             <p>+38 099 111 11 11</p>
-            </address>
+        </address>
     </footer>
 </body>
-
 </html>

@@ -1,36 +1,73 @@
-* {
-  text-decoration: none;
-  margin: 0px;
- }
- .navigation {
+  body {
+      width: 1600px;
+      height: 2349px;
+      background: #FFFFFF;
+  }
+  .navigation {
      display: flex;
+     text-align: left;
  }
 .nav-stud {
-margin-right: 50px;
-margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 .nav-portfolio {
-margin-right: 50px;
-}
-.nav-contacts {
+    margin-right: 50px;
 }
 .mail {
-margin-left: 331px;
+    margin-left: 331px;
+    display: flex;
 }
 .phone {
-margin-left: 50px;
+    margin-left: 50px;
 }
-.section-first {
+.section-hero {
+    width: 1600px;
+    height: 600px;
+    background: #2F303A;
+}
 
+.features {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    width: 1170px;
+    height: 101px;
 }
-.cap {
-height: 600px;
-width: 1600px;
-left: 0px;
-top: 80px;
-border-radius: 0px;
-background: #2F303A;
+.details {
+    width: 270px;
+    height: 75px;
+    top: 800px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+    margin-left: 30px;
 }
+.details-head {
+width: 270px;
+height: 16px;
+top: 774px;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color: #212121;
+}
+.display {
+    display: flex;   
+}
+.items {
+    margin-right: 30px;
+}
+.team {
+    display: flex;
+    background: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+}
+.team-members {
+    margin-right: 30px;
+}
+
 .main-discription {
 position: absolute;
 width: 696px;
@@ -46,13 +83,14 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-top: 200px;
 }
 .order-service {
 position: absolute;
 width: 200px;
 height: 50px;
 left: 732px;
-top: 440px;
+top: 600px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -61,16 +99,12 @@ line-height: 30px;
 display: flex;
 color: #FFFFFF;
 background-color: #2196F3;
+margin-top: 30px;
 }
-
-
-
-
-
 .city {
   color: #ffffff;
 }
-.footer {
+footer {
     background: #2F303A;
     width: 1600px; 
     height: 252px;"
@@ -83,9 +117,9 @@ background-color: #2196F3;
     line-height: 31px;
     margin-left: 215px;
 }
-.web {
-    
+.web {    
     margin-top: 60px;
+    color: #2196F3;;
 }
 .studio {
 color: black;
