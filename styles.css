@@ -61,7 +61,7 @@ color: #212121;
 .team {
     display: flex;
     background: #F5F4FA;
-    width: 1600px;
+    width: 1560px;
     height: 648px;
 }
 .team-members {
@@ -73,7 +73,6 @@ position: absolute;
 width: 696px;
 height: 120px;
 left: 452px;
-top: 280px;
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -90,7 +89,7 @@ position: absolute;
 width: 200px;
 height: 50px;
 left: 732px;
-top: 600px;
+top: 430px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -101,10 +100,16 @@ color: #FFFFFF;
 background-color: #2196F3;
 margin-top: 30px;
 }
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+}
 .city {
   color: #ffffff;
 }
 footer {
+    text-decoration: none;
     background: #2F303A;
     width: 1600px; 
     height: 252px;"
@@ -115,8 +120,7 @@ footer {
     font-weight: bold; 
     font-size: 26px;
     line-height: 31px;
-    margin-left: 215px;
-}
+    }
 .web {    
     margin-top: 60px;
     color: #2196F3;;
@@ -124,9 +128,17 @@ footer {
 .studio {
 color: black;
 }
-.address {
-  text-decoration: none;
+.address {  
   color: rgba(255, 255, 255, 0.6);
   margin-top: 20px;
   margin-left: 215px;
+}
+a {
+    text-decoration: none;
+}
+.contacts {
+color:rgba(255, 255, 255, 0.6);
+}
+.footer-contacts {
+    margin-left: 215px;
 }
