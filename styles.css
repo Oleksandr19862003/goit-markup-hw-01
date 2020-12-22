@@ -6,6 +6,14 @@
   .navigation {
      display: flex;
      text-align: left;
+     margin-left: 93px;
+     list-style-type: none;
+ }
+ nav {
+    display: flex;
+ } 
+ .tel {
+     margin-left: 50px;
  }
 .nav-stud {
     margin-right: 50px;
@@ -15,7 +23,7 @@
     margin-right: 50px;
 }
 .mail {
-    margin-left: 331px;
+    margin-left: 1078px;
     display: flex;
 }
 .phone {
@@ -33,6 +41,7 @@
     color: #FFFFFF;
     width: 1170px;
     height: 101px;
+    list-style-type: none;
 }
 .details {
     width: 270px;
@@ -53,7 +62,8 @@ line-height: 16px;
 color: #212121;
 }
 .display {
-    display: flex;   
+    display: flex; 
+    list-style-type: none;  
 }
 .items {
     margin-right: 30px;
@@ -63,6 +73,7 @@ color: #212121;
     background: #F5F4FA;
     width: 1560px;
     height: 648px;
+    list-style-type: none;
 }
 .team-members {
     margin-right: 30px;
@@ -120,6 +131,7 @@ footer {
     font-weight: bold; 
     font-size: 26px;
     line-height: 31px;
+    margin-left: 215px;
     }
 .web {    
     margin-top: 60px;
@@ -140,5 +152,4 @@ a {
 color:rgba(255, 255, 255, 0.6);
 }
 .footer-contacts {
-    margin-left: 215px;
 }
