@@ -1,0 +1,180 @@
+body {
+  width: 1600px;
+  height: 2349px;
+  background: #e5e5e5;
+  font-family: Roboto;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+ul {
+  list-style: none;
+}
+header {
+  background: #ffffff;
+  display: flex;
+  width: 1600px;
+  height: 80px;
+}
+nav {
+  display: flex;
+  margin-left: 230px;
+}
+.logo-top {
+  margin-top: 24px;
+  height: 31px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.navigation {
+  display: flex;
+  margin-left: 93px;
+  text-align: center;
+  margin-top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.nav-link a {
+  margin-right: 50px;
+  color: #212121;
+}
+.nav-link-portfolio a {
+  color: #212121;
+}
+.nav-link-contacts a {
+  margin-left: 50px;
+  color: #212121;
+}
+.nav-link-contacts:hover a,
+.nav-link-portfolio:hover a,
+.nav-link:hover a {
+  color: #2196f3;
+}
+.contact {
+  display: flex;
+  margin-left: 331px;
+  margin-top: 32px;
+}
+.contact-mail {
+  color: #757575;
+}
+.contact-tel {
+  margin-left: 50px;
+  color: #757575;
+}
+.contact-tel:hover,
+.contact-mail:hover {
+  color: #2196f3;
+}
+main {
+  width: 1600px;
+  height: 1360px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+section {
+  width: 1600px;
+  height: 1360px;
+}
+.filters {
+  display: flex;
+  margin-left: 517px;
+  padding-top: 94px;
+}
+.filter {
+  margin-right: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #2196f3;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 1170px;
+  height: 1272px;
+  margin-left: 215px;
+  padding-top: 50px;
+}
+.project {
+  width: 370px;
+  height: 404px;
+  margin: 0px;
+  flex-basis: calc(100% / 3 - 30px);
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding: 0px;
+}
+footer {
+  text-decoration: none;
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.footer-content {
+  padding-top: 60px;
+  padding-left: 215px;
+}
+.logo-footer {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  margin-left: 40px;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  margin-top: 60px;
+  color: #2196f3;
+}
+.studio {
+  color: black;
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 20px;
+}
+.footer-contacts {
+}
+.city-address {
+  margin-top: ;
+  margin-bottom: 9px;
+}
+.footer-tel {
+  margin-top: 9px;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+a {
+  text-decoration: none;
+  color: #757575;
+}
